@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 
 # Replace 'path/to/your/chinook.db' with the actual path where you saved the Chinook database
-connection = sqlite3.connect('path/to/your/chinook.db')
+connection = sqlite3.connect('https://chinookdatabase.codeplex.com/')
 
 # SQL query to join customer, invoice, invoice item, track, and album tables
 query = """
